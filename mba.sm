@@ -1,0 +1,54 @@
+ctmc
+
+const int initial_Z = 95;
+const int initial_N = 5;
+const int initial_U = 0;
+const int popSize = 100;
+
+const double ki; //= 0.001;
+const double kr; //= 0.01;
+const double partlyRecoveredRatio = 0.5;
+
+
+module healthy 
+	healthyPop : [0..100] init initial_Z;
+	[infect] (healthyPop > 0 & infectedPop > 0) -> ki*healthyPop*infectedPop : (healthyPop' = healthyPop-1); 
+//	[infectFromRecovered] (healthyPop>0 & infectedPop > 0) -> ki*healthyPop*infectedPop*0.5 : (healthyPop' = healthyPop-1);
+endmodule
+
+module infected
+	infectedPop : [0..100] init initial_N;
+	[infect] (infectedPop < popSize) 	-> 1 : (infectedPop' = infectedPop+1); 
+	[recover] (infectedPop > 0) 		-> kr*infectedPop : (infectedPop' = infectedPop-1);
+//	[infectFromRecovered] (recoveredInfectiousPop>0) -> 1 : (infectedPop' = infectedPop-1); 
+//	[recoverPartially] (infectedPop > 0) -> kr*partlyRecoveredRatio : (infectedPop' = infectedPop-1);
+endmodule
+
+module recovered
+	recoveredPop : [0..100] init initial_U;
+	[recover] (recoveredPop < popSize) 	-> 1 : (recoveredPop' = recoveredPop+1);
+endmodule
+
+
+
+//module recoveredInfectious
+//	recoveredInfectiousPop : [0..100] init initial_U;
+//	[recoverPartially] (recoveredInfectiousPop < popSize) -> 1 : (recoveredInfectiousPop' = recoveredInfectiousPop+1);
+//endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

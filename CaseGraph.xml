@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<casegraph>
+  <case name="c1">{ b1, b2 }</case>
+  <case name="c2">{ b2, b3 }</case>
+  <case name="c3">{ b1, b4 }</case>
+  <case name="c4">{ b3, b4 }</case>
+  <case name="c5">{ b2, b4 }</case>
+  <case name="c6">{ b1, b3 }</case>
+  <step name="s1">
+{ e2 }    <from name="c1">
+    <to name="c2">
+  </step>
+  <step name="s2">
+{ e4 }    <from name="c1">
+    <to name="c3">
+  </step>
+  <step name="s3">
+{ e2, e4 }    <from name="c1">
+    <to name="c4">
+  </step>
+  <step name="s4">
+{ e3 }    <from name="c5">
+    <to name="c1">
+  </step>
+  <step name="s2">
+{ e4 }    <from name="c2">
+    <to name="c4">
+  </step>
+  <step name="s5">
+{ e5 }    <from name="c2">
+    <to name="c5">
+  </step>
+  <step name="s6">
+{ e1 }    <from name="c6">
+    <to name="c2">
+  </step>
+  <step name="s6">
+{ e1 }    <from name="c3">
+    <to name="c5">
+  </step>
+  <step name="s1">
+{ e2 }    <from name="c3">
+    <to name="c4">
+  </step>
+  <step name="s5">
+{ e5 }    <from name="c6">
+    <to name="c3">
+  </step>
+  <step name="s4">
+{ e3 }    <from name="c4">
+    <to name="c6">
+  </step>
+  <step name="s7">
+{ e1, e5 }    <from name="c6">
+    <to name="c5">
+  </step>
+</casegraph>

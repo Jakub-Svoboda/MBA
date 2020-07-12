@@ -1,0 +1,15 @@
+const int L;
+const int T;
+
+P>=1 [ infectedPop=0 ]
+
+P=? [ F[0,T] infectedPop>0 ]
+
+P>=1 [ F[0,T] infectedPop=0 ]
+
+P=? [ F=100 infectedPop>0 ]
+
+P=? [ F=120 infectedPop=0 ]
+
+P=? [ (infectedPop>0) U<=100 (infectedPop=0) ]
+

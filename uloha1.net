@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml xmlns = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+  <net id = "n1"
+       type = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+    <name>
+      <text>uloha1</text>
+    </name>
+    <place id = "p1">
+      <graphics>
+        <position x = "1020"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p2">
+      <graphics>
+        <position x = "1360"
+                  y = "920"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p3">
+      <graphics>
+        <position x = "1520"
+                  y = "920"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p4">
+      <graphics>
+        <position x = "1760"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p5">
+      <graphics>
+        <position x = "540"
+                  y = "80"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p6">
+      <graphics>
+        <position x = "620"
+                  y = "320"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p7">
+      <graphics>
+        <position x = "620"
+                  y = "620"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p8">
+      <graphics>
+        <position x = "620"
+                  y = "900"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p9">
+      <graphics>
+        <position x = "620"
+                  y = "1080"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p10">
+      <graphics>
+        <position x = "540"
+                  y = "1280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p11">
+      <graphics>
+        <position x = "1140"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p12">
+      <graphics>
+        <position x = "1900"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p13">
+      <graphics>
+        <position x = "2340"
+                  y = "100"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p14">
+      <graphics>
+        <position x = "2180"
+                  y = "320"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p15">
+      <graphics>
+        <position x = "2180"
+                  y = "640"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p16">
+      <graphics>
+        <position x = "2180"
+                  y = "920"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p17">
+      <graphics>
+        <position x = "2180"
+                  y = "1080"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <place id = "p18">
+      <graphics>
+        <position x = "2340"
+                  y = "1280"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+    </place>
+    <transition id = "t1">
+      <graphics>
+        <position x = "620"
+                  y = "180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t2">
+      <graphics>
+        <position x = "620"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t3">
+      <graphics>
+        <position x = "760"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t4">
+      <graphics>
+        <position x = "620"
+                  y = "800"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t5">
+      <graphics>
+        <position x = "620"
+                  y = "980"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t6">
+      <graphics>
+        <position x = "540"
+                  y = "1180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t7">
+      <graphics>
+        <position x = "380"
+                  y = "1400"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t8">
+      <graphics>
+        <position x = "700"
+                  y = "1180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t9">
+      <graphics>
+        <position x = "2180"
+                  y = "180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t10">
+      <graphics>
+        <position x = "2180"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t11">
+      <graphics>
+        <position x = "2040"
+                  y = "520"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t12">
+      <graphics>
+        <position x = "2180"
+                  y = "800"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t13">
+      <graphics>
+        <position x = "2180"
+                  y = "1000"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t14">
+      <graphics>
+        <position x = "2340"
+                  y = "1160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t15">
+      <graphics>
+        <position x = "2120"
+                  y = "1160"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t16">
+      <graphics>
+        <position x = "2500"
+                  y = "1420"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t17">
+      <graphics>
+        <position x = "800"
+                  y = "180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <transition id = "t18">
+      <graphics>
+        <position x = "2040"
+                  y = "180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+    </transition>
+    <arc id = "a1"
+         source = "p5"
+         target = "t1"/>
+    <arc id = "a2"
+         source = "t1"
+         target = "p6"/>
+    <arc id = "a3"
+         source = "p6"
+         target = "t2"/>
+    <arc id = "a4"
+         source = "p3"
+         target = "t2"/>
+    <arc id = "a5"
+         source = "t2"
+         target = "p7"/>
+    <arc id = "a6"
+         source = "t2"
+         target = "p3"/>
+    <arc id = "a7"
+         source = "p2"
+         target = "t3"/>
+    <arc id = "a8"
+         source = "p6"
+         target = "t3"/>
+    <arc id = "a9"
+         source = "p7"
+         target = "t4"/>
+    <arc id = "a10"
+         source = "t4"
+         target = "p8"/>
+    <arc id = "a11"
+         source = "p8"
+         target = "t5"/>
+    <arc id = "a12"
+         source = "t5"
+         target = "p2"/>
+    <arc id = "a13"
+         source = "t5"
+         target = "p9"/>
+    <arc id = "a14"
+         source = "p9"
+         target = "t6"/>
+    <arc id = "a15"
+         source = "p4"
+         target = "t6"/>
+    <arc id = "a16"
+         source = "t6"
+         target = "p4"/>
+    <arc id = "a17"
+         source = "p10"
+         target = "t7"/>
+    <arc id = "a18"
+         source = "t7"
+         target = "p5"/>
+    <arc id = "a19"
+         source = "t3"
+         target = "p9"/>
+    <arc id = "a20"
+         source = "t6"
+         target = "p5"/>
+    <arc id = "a21"
+         source = "t8"
+         target = "p10"/>
+    <arc id = "a22"
+         source = "p9"
+         target = "t8"/>
+    <arc id = "a23"
+         source = "t3"
+         target = "p2"/>
+    <arc id = "a24"
+         source = "p1"
+         target = "t1"/>
+    <arc id = "a25"
+         source = "t1"
+         target = "p11"/>
+    <arc id = "a26"
+         source = "p13"
+         target = "t9"/>
+    <arc id = "a27"
+         source = "t9"
+         target = "p4"/>
+    <arc id = "a28"
+         source = "p12"
+         target = "t9"/>
+    <arc id = "a29"
+         source = "t9"
+         target = "p14"/>
+    <arc id = "a30"
+         source = "p14"
+         target = "t10"/>
+    <arc id = "a31"
+         source = "p2"
+         target = "t10"/>
+    <arc id = "a32"
+         source = "t10"
+         target = "p2"/>
+    <arc id = "a33"
+         source = "p3"
+         target = "t11"/>
+    <arc id = "a34"
+         source = "t11"
+         target = "p3"/>
+    <arc id = "a35"
+         source = "t10"
+         target = "p15"/>
+    <arc id = "a36"
+         source = "p15"
+         target = "t12"/>
+    <arc id = "a37"
+         source = "t12"
+         target = "p16"/>
+    <arc id = "a38"
+         source = "p16"
+         target = "t13"/>
+    <arc id = "a39"
+         source = "t13"
+         target = "p3"/>
+    <arc id = "a40"
+         source = "p2"
+         target = "t13"/>
+    <arc id = "a41"
+         source = "t13"
+         target = "p17"/>
+    <arc id = "a42"
+         source = "p17"
+         target = "t14"/>
+    <arc id = "a43"
+         source = "t14"
+         target = "p13"/>
+    <arc id = "a44"
+         source = "p17"
+         target = "t15"/>
+    <arc id = "a45"
+         source = "p12"
+         target = "t8"/>
+    <arc id = "a46"
+         source = "t8"
+         target = "p12"/>
+    <arc id = "a47"
+         source = "t15"
+         target = "p18"/>
+    <arc id = "a48"
+         source = "p18"
+         target = "t16"/>
+    <arc id = "a49"
+         source = "t16"
+         target = "p13"/>
+    <arc id = "a50"
+         source = "p14"
+         target = "t11"/>
+    <arc id = "a51"
+         source = "t11"
+         target = "p17"/>
+    <arc id = "a52"
+         source = "t14"
+         target = "p11"/>
+    <arc id = "a53"
+         source = "p11"
+         target = "t14"/>
+    <arc id = "a54"
+         source = "p1"
+         target = "t15"/>
+    <arc id = "a55"
+         source = "t15"
+         target = "p1"/>
+    <arc id = "a56"
+         source = "t7"
+         target = "p1"/>
+    <arc id = "a57"
+         source = "p11"
+         target = "t7"/>
+    <arc id = "a58"
+         source = "t16"
+         target = "p12"/>
+    <arc id = "a59"
+         source = "p4"
+         target = "t16"/>
+    <arc id = "a60"
+         source = "p3"
+         target = "t5"/>
+    <arc id = "a61"
+         source = "p11"
+         target = "t17"/>
+    <arc id = "a62"
+         source = "t17"
+         target = "p11"/>
+    <arc id = "a63"
+         source = "t17"
+         target = "p6"/>
+    <arc id = "a64"
+         source = "p5"
+         target = "t17"/>
+    <arc id = "a65"
+         source = "p4"
+         target = "t18"/>
+    <arc id = "a66"
+         source = "t18"
+         target = "p4"/>
+    <arc id = "a67"
+         source = "t18"
+         target = "p14"/>
+    <arc id = "a68"
+         source = "p13"
+         target = "t18"/>
+    <arc id = "a69"
+         source = "p3"
+         target = "t4"/>
+    <arc id = "a70"
+         source = "t4"
+         target = "p3"/>
+    <arc id = "a71"
+         source = "p12"
+         target = "t4"/>
+    <arc id = "a72"
+         source = "t4"
+         target = "p12"/>
+    <arc id = "a73"
+         source = "t12"
+         target = "p2"/>
+    <arc id = "a74"
+         source = "p2"
+         target = "t12"/>
+    <arc id = "a75"
+         source = "t12"
+         target = "p1"/>
+    <arc id = "a76"
+         source = "p1"
+         target = "t12"/>
+    <toolspecific tool = "netlab"
+                  version = "1.8">
+      <developer_release version = "1,8,0,0"
+                         build = "3381"
+                         svn_revision = "419"
+                         year = "2007"
+                         month = "06"
+                         day = "22"/>
+      <comments>
+        <comment id = "c1">
+          <graphics>
+            <position x = "1020"
+                      y = "60"/>
+          </graphics>
+          <text>Flag0==False</text>
+        </comment>
+        <comment id = "c2">
+          <graphics>
+            <position x = "1760"
+                      y = "60"/>
+          </graphics>
+          <text>Flag1 == True</text>
+        </comment>
+        <comment id = "c3">
+          <graphics>
+            <position x = "1360"
+                      y = "880"/>
+          </graphics>
+          <text>P == False</text>
+        </comment>
+        <comment id = "c4">
+          <graphics>
+            <position x = "1520"
+                      y = "880"/>
+          </graphics>
+          <text>P == True</text>
+        </comment>
+        <comment id = "c5">
+          <graphics>
+            <position x = "180"
+                      y = "180"/>
+          </graphics>
+          <text>2: Set flag0 to true</text>
+        </comment>
+        <comment id = "c6">
+          <graphics>
+            <position x = "160"
+                      y = "20"/>
+          </graphics>
+          <text>1 Repeat</text>
+        </comment>
+        <comment id = "c7">
+          <graphics>
+            <position x = "540"
+                      y = "20"/>
+          </graphics>
+          <text>PROCES 0</text>
+        </comment>
+        <comment id = "c8">
+          <graphics>
+            <position x = "160"
+                      y = "520"/>
+          </graphics>
+          <text>3: if p == 1</text>
+        </comment>
+        <comment id = "c9">
+          <graphics>
+            <position x = "720"
+                      y = "520"/>
+          </graphics>
+          <text>Else:</text>
+        </comment>
+        <comment id = "c10">
+          <graphics>
+            <position x = "200"
+                      y = "800"/>
+          </graphics>
+          <text>4:  (Flag1==False and P == True) OR (flag0==False and P==False)</text>
+        </comment>
+        <comment id = "c11">
+          <graphics>
+            <position x = "180"
+                      y = "980"/>
+          </graphics>
+          <text>5: p = 0</text>
+        </comment>
+        <comment id = "c12">
+          <graphics>
+            <position x = "180"
+                      y = "1180"/>
+          </graphics>
+          <text>6: If flag1 == True</text>
+        </comment>
+        <comment id = "c13">
+          <graphics>
+            <position x = "240"
+                      y = "1260"/>
+          </graphics>
+          <text>7: Critical section for 0</text>
+        </comment>
+        <comment id = "c14">
+          <graphics>
+            <position x = "120"
+                      y = "1420"/>
+          </graphics>
+          <text>8: Flag0 = False</text>
+        </comment>
+        <comment id = "c15">
+          <graphics>
+            <position x = "480"
+                      y = "1180"/>
+          </graphics>
+          <text>then continue</text>
+        </comment>
+        <comment id = "c16">
+          <graphics>
+            <position x = "660"
+                      y = "1180"/>
+          </graphics>
+          <text>else:</text>
+        </comment>
+        <comment id = "c17">
+          <graphics>
+            <position x = "1140"
+                      y = "60"/>
+          </graphics>
+          <text>Flag0==True</text>
+        </comment>
+        <comment id = "c18">
+          <graphics>
+            <position x = "1880"
+                      y = "60"/>
+          </graphics>
+          <text>Flag1 == False</text>
+        </comment>
+        <comment id = "c19">
+          <graphics>
+            <position x = "2340"
+                      y = "40"/>
+          </graphics>
+          <text>Process 1</text>
+        </comment>
+        <comment id = "c20">
+          <graphics>
+            <position x = "2020"
+                      y = "480"/>
+          </graphics>
+          <text>else:</text>
+        </comment>
+        <comment id = "c21">
+          <graphics>
+            <position x = "2580"
+                      y = "160"/>
+          </graphics>
+          <text>2: Set flag1 to True</text>
+        </comment>
+        <comment id = "c22">
+          <graphics>
+            <position x = "2540"
+                      y = "520"/>
+          </graphics>
+          <text>3: if P == False</text>
+        </comment>
+        <comment id = "c23">
+          <graphics>
+            <position x = "2660"
+                      y = "800"/>
+          </graphics>
+          <text>4: (P==True AND Flag1==False) OR (P==False AND Flag0==False)</text>
+        </comment>
+        <comment id = "c24">
+          <graphics>
+            <position x = "2480"
+                      y = "980"/>
+          </graphics>
+          <text>5: P = True</text>
+        </comment>
+        <comment id = "c25">
+          <graphics>
+            <position x = "2600"
+                      y = "1160"/>
+          </graphics>
+          <text>6: if Flag0 == True</text>
+        </comment>
+        <comment id = "c26">
+          <graphics>
+            <position x = "2260"
+                      y = "1160"/>
+          </graphics>
+          <text>then continue</text>
+        </comment>
+        <comment id = "c27">
+          <graphics>
+            <position x = "2060"
+                      y = "1160"/>
+          </graphics>
+          <text>else:</text>
+        </comment>
+        <comment id = "c28">
+          <graphics>
+            <position x = "2560"
+                      y = "1280"/>
+          </graphics>
+          <text>7: Critical Section</text>
+        </comment>
+        <comment id = "c29">
+          <graphics>
+            <position x = "2600"
+                      y = "1420"/>
+          </graphics>
+          <text>8: Flag1 == False</text>
+        </comment>
+        <comment id = "c30">
+          <graphics>
+            <position x = "380"
+                      y = "620"/>
+          </graphics>
+          <text>wait until</text>
+        </comment>
+      </comments>
+      <view xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+            zoom = "75"
+            grid = "true"
+            numbering = "true"
+            names = "false"
+            description = "true"
+            colored_invariants = "true">
+        <scrollerposition x = "0"
+                          y = "0"/>
+      </view>
+      <calculation xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+                   autocalculate_invariants = "false"
+                   firing_rule = "strong"/>
+      <petrinetstatemodel self_loops = "true"
+                          io_extensions = "true"
+                          test_arcs = "allowed_at_all_nodes"
+                          inhibitor_arcs = "allowed_at_input_nodes"/>
+    </toolspecific>
+  </net>
+</pnml>
